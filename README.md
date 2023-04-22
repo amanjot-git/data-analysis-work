@@ -2,7 +2,8 @@
 Data analyses related to various fields such as Health, Retail, Finance, HR and so on are compiled here
 
 **PROJECT 1: COVID 19 DATA ANALYSIS**
-## Data sources
+
+**Data sources:**
 - **Confirmed cases and deaths:** this data is collected from the [World Health Organization Coronavirus Dashboard](https://covid19.who.int/data). The cases & deaths dataset is updated daily.
 COVID 19 dataset is available in [CSV](https://covid.ourworldindata.org/data/owid-covid-data.csv)
 
@@ -133,4 +134,21 @@ HOW?
 | `end_lat`                 | Latitude of ending point of ride.                                                                                                                                                         |                         
 | `end_lng`                    | Longitude of ending point of ride.                                                                                                                                                        | 
 | `member_casual`                      | Annual or casual riders.|     
+
+**Some errors to check for:**
+1. started_at/ended_at: There are some values in these columns where rides dont follow the constraint i.e <1 min or >24 hours.
+2. start_station_name/end_station_name: Inconsistencies in these columns are spaces, null value, missing a start and end station name because electrical bikes have the option to lock and unlock near at a station. But starting and ending station names shouldnt be  missing from classic bikes, and as there are certain data where it happens, then such records need to be removed. Classic bikes must have a start and end station name.
+3. start_station_id/end_station_id: Inconsistencies are present with the column.They dont add any value to our analysis.
+4. start_lat/end_lat & start_lng/end_lng: these columns refer to starting and ending longitude and latitude for the bike. This data will be later used for data visualization.
+5. member_casual: these columns refer to either annual or casual riders. These are the only two values allowed in the column and was double checked for errors.
   	
+Data Cleaning process:
+Removed trips where null was in start or end station of classic bike , and latitude or longitude columns are null
+Cleaned up station_name from spaces at front or trail
+Replaced null values in the station name columns with the string ‘On Bike Lock’ for only electric bikes.
+Removed trips where the ride time length was less than or equal to 1 minute and greater than or equal to 1 day.
+Removed trips that contained the word “REPAIR” on station names.
+In total, I removed about 70,000 rows to be left with a clean combined table with about 5.5 million rows.
+
+
+
