@@ -152,7 +152,7 @@ Data Cleaning process:
 5. ride_length and day_of_week for trip is calculated
 6. Removed trips where the ride time length was less than or equal to 1 minute and greater than or equal to 1 day.
 Removed trips that contained the word “REPAIR” on station names.
-In total, I removed about 70,000 rows to be left with a clean combined table with about 5.5 million rows.
+In total, I removed about 138K rows to be left with a clean combined table with about 5.5 million rows.
 
 
 
