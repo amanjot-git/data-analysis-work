@@ -143,10 +143,12 @@ HOW?
 5. member_casual: these columns refer to either annual or casual riders. These are the only two values allowed in the column and was double checked for errors.
   	
 Data Cleaning process:
-Removed trips where null was in start or end station of classic bike , and latitude or longitude columns are null
-Cleaned up station_name from spaces at front or trail
-Replaced null values in the station name columns with the string ‘On Bike Lock’ for only electric bikes.
-Removed trips where the ride time length was less than or equal to 1 minute and greater than or equal to 1 day.
+1. Replaced 'docked_bike with 'classic_bike'
+2. Removed trips where null was in start or end station of classic bike , and latitude or longitude columns are null
+3. Replaced null values in the station name columns with the string ‘On Bike Lock’ for only electric bikes.
+4. Cleaned up station_name from spaces at front or trail
+5. ride_length and day_of_week for trip is calculated
+6. Removed trips where the ride time length was less than or equal to 1 minute and greater than or equal to 1 day.
 Removed trips that contained the word “REPAIR” on station names.
 In total, I removed about 70,000 rows to be left with a clean combined table with about 5.5 million rows.
 
