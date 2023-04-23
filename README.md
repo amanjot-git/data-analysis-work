@@ -96,6 +96,8 @@ HOW?
   
   The bikes can be unlocked from one station and  returned to any other station in the system anytime. 
   
+  A bike-share program that features more than 5,800 bicycles and 600 docking stations.
+  
   Cyclistic, offers both Classic and Electrical bikes to annual members and casual riders. 
   
   Members are defined as users who have annual passes. Casuals, on the other hand, refers to users who have purchased either a single day pass or a day pass.
@@ -145,7 +147,7 @@ HOW?
 Data Cleaning process:
 1. Replaced 'docked_bike with 'classic_bike'
 2. Removed trips where null was in start or end station of classic bike , and latitude or longitude columns are null
-3. Replaced null values in the station name columns with the string ‘On Bike Lock’ for only electric bikes.
+3. Replaced null values in the station name columns with the string `On Bike Lock` for only electric bikes.
 4. Cleaned up station_name from spaces at front or trail
 5. ride_length and day_of_week for trip is calculated
 6. Removed trips where the ride time length was less than or equal to 1 minute and greater than or equal to 1 day.
