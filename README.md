@@ -161,12 +161,12 @@ Uploaded all clean files to Google Bigquery
 
 Created a combined table using UNION ALL on all tables and added columns Year, Month, DayofWeek, Formatted ride_length for comparison ,
 
-**ANALYSIS**
-**MEMBER AND CASUAL RIDERS ANALYSIS OVER MONTH AND DAY OF WEEK**
-1. Members ride mostly during weekdays 
-2. Casual Riders increase in number during warm months and go down during winter months
+**ANALYSIS OF MEMBER AND CASUAL RIDERS ANALYSIS OVER MONTH AND DAY OF WEEK**
+1. Members ride mostly during weekdays.
+2. Casual Riders as well as Member Riders increase in number during warm months and go down during winter months.
 
-![image](https://user-images.githubusercontent.com/59747572/235314273-de0d4f6e-988f-4c43-94a9-8c857a00e880.png)
+![image](https://user-images.githubusercontent.com/59747572/235314354-885447e6-f6ab-435c-90c7-5d711e3cd8a1.png)
+
 
 
 
