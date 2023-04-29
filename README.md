@@ -155,4 +155,5 @@ Removed trips that contained the word “REPAIR” on station names.
 In total, I removed about 138K rows to be left with a clean combined table with about 5.5 million rows.
 
 
+![image](https://user-images.githubusercontent.com/59747572/235278621-f10869cf-63e3-457f-81c3-21481112ff7d.png)
 
