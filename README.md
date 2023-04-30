@@ -159,7 +159,7 @@ In total, I removed about 138K rows to be left with a clean combined table with 
 
 Uploaded all clean files to Google Bigquery 
 
-Created a combined table using UNION ALL on all tables and added columns Year, Month, DayofWeek, Formatted ride_length for comparison ,
+Created a combined table using UNION ALL on all tables and added columns Year, Month, DayofWeek, Formatted ride_length for comparison
 
 **ANALYSIS OF MEMBER AND CASUAL RIDERS ANALYSIS OVER MONTH AND DAY OF WEEK**
 1. Members ride mostly during weekdays.
