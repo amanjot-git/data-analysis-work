@@ -172,6 +172,7 @@ Created a combined table using UNION ALL on all tables and added columns Year, M
 
 
 
+![image](https://user-images.githubusercontent.com/59747572/235334573-ef06fde3-a826-4170-b666-afa5ab41b363.png)
 
 
 
