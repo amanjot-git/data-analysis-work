@@ -2,7 +2,7 @@
 Data analyses related to various fields such as Health, Retail, Finance, HR and so on are compiled here
 
 **PROJECT 1: COVID 19 DATA ANALYSIS**
-
+**Source: Power BI Projects by The Machine Learning on Udemy**
 **Data sources:**
 - **Confirmed cases and deaths:** this data is collected from the [World Health Organization Coronavirus Dashboard](https://covid19.who.int/data). The cases & deaths dataset is updated daily.
 COVID 19 dataset is available in [CSV](https://covid.ourworldindata.org/data/owid-covid-data.csv)
@@ -57,7 +57,7 @@ Trends are analyzed
 ----
 
 **PROJECT 2: BRIDGING COMMUNICATION GAP BETWEEN TEACHERS AND PARENTS**
-
+**Source: Google Data Analytics Professional Certificate**
 Possible Solution: DESIGN AN APP FOR PARENTS TO STAY UPDATED ON SCHOOL NEWS , CHILDEREN'S CLASSES AND ACTIVITIES
 
 **Ask:**
@@ -89,7 +89,7 @@ HOW?
 ----
 
 **PROJECT 3: BIKE SHARING ANALYSIS TO CONVERT CASUAL RIDERS TO ANNUAL MEMMBERS FOR SPEEDY SUCCESS**
-  
+  **Source: Google Data Analytics Professional Certificate**
   **OBJECTIVE:**
   
   In this case study, I am a “Jr. Data Analyst” at a company called Cyclistic, a bike sharing company based in Toronto.
@@ -177,12 +177,12 @@ Created a combined table using UNION ALL on all tables and added columns Year, M
 
 
 From the results, it is evident that
-1. The number of casual riders as well as members increase as the weather becomes warm and starts to go down as fall season approaches
-2. 
+1. The number of casual riders as well as members increase as the weather becomes warm and starts to go down as fall season approaches. 
+2. Members ride mostly during weekdays.
 
-1. Members ride mostly during weekdays.
-2. Casual Riders as well as Member Riders increase in number during warm months and go down during winter months.
 
+
+**PROJECT 4: Manufacturing Oil Rig Prompt - Avery Smith**
 
 
 
