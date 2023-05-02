@@ -2,7 +2,9 @@
 Data analyses related to various fields such as Health, Retail, Finance, HR and so on are compiled here
 
 **PROJECT 1: COVID 19 DATA ANALYSIS**
+
 **Source: Power BI Projects by The Machine Learning on Udemy**
+
 **Data sources:**
 - **Confirmed cases and deaths:** this data is collected from the [World Health Organization Coronavirus Dashboard](https://covid19.who.int/data). The cases & deaths dataset is updated daily.
 COVID 19 dataset is available in [CSV](https://covid.ourworldindata.org/data/owid-covid-data.csv)
@@ -57,7 +59,9 @@ Trends are analyzed
 ----
 
 **PROJECT 2: BRIDGING COMMUNICATION GAP BETWEEN TEACHERS AND PARENTS**
+
 **Source: Google Data Analytics Professional Certificate**
+
 Possible Solution: DESIGN AN APP FOR PARENTS TO STAY UPDATED ON SCHOOL NEWS , CHILDEREN'S CLASSES AND ACTIVITIES
 
 **Ask:**
@@ -183,6 +187,7 @@ From the results, it is evident that
 
 
 **PROJECT 4: Manufacturing Oil Rig Prompt - Avery Smith**
+
 Source: Dataset comes from a real hydraulic rig system. This hydraulic rig is used to drill oil out of the ground.
 It has 4 main controls: the cooler setting,the valve setting, the pump setting, and the accumulator setting. The rig has sensors in different areas measuring the pressure, volumetric flows , and temperatures.
 I am tasked with creating a manufacturing monitoring dashboard that allows management to understand the manufacturing process in detail
