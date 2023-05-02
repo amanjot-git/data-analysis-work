@@ -183,7 +183,11 @@ From the results, it is evident that
 
 
 **PROJECT 4: Manufacturing Oil Rig Prompt - Avery Smith**
+Source: Dataset comes from a real hydraulic rig system. This hydraulic rig is used to drill oil out of the ground.
+It has 4 main controls: the cooler setting,the valve setting, the pump setting, and the accumulator setting. The rig has sensors in different areas measuring the pressure, volumetric flows , and temperatures.
+I am tasked with creating a manufacturing monitoring dashboard that allows management to understand the manufacturing process in detail
 
+**Data Sorces:https://raw.githubusercontent.com/AveryData/hp-pred/main/HourlyData.csv **
 
 
 
