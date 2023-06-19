@@ -93,7 +93,9 @@ HOW?
 ----
 
 **PROJECT 3: BIKE SHARING ANALYSIS TO CONVERT CASUAL RIDERS TO ANNUAL MEMMBERS FOR SPEEDY SUCCESS**
+ 
   **Source: Google Data Analytics Professional Certificate**
+  
   **OBJECTIVE:**
   
   In this case study, I am a “Jr. Data Analyst” at a company called Cyclistic, a bike sharing company based in Toronto.
